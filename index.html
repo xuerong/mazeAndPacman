@@ -12,6 +12,16 @@
 	<img src="resource/icon.png">
 	<img src="resource/main.png">
 
-	<a href="resource/mi.apk">xiazai</a>
+	<a href="#" onclick="aa()">xiazai666</a>
+	<script type="text/javascript">
+	function aa() {
+		    var ua = navigator.userAgent.toLowerCase();
+		    console.log(ua);
+		    if(ua.match(/MicroMessenger/i)!="micromessenger") {
+		            window.location="resource/mi.apk";
+		     }
+		} 
+
+	</script>
 </body>
 </html>
